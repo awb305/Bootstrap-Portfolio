@@ -1,0 +1,101 @@
+
+body {
+  background-color: lightgrey;
+}
+
+body {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 34px;
+  color: #777;
+  background: url("concrete_seamless.png");
+}
+
+#main-container {
+    background-color: white;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+}
+
+.navbar {
+  margin: 0px;
+  padding: 0px;
+  padding-right: 94px;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+  }
+
+.navbar-brand {
+  margin-left: 94px;
+  background-color: teal;
+  padding: 2rem;
+}
+
+#name {
+  color:white;
+}
+  
+  
+
+#about-me {
+    
+    border-bottom: 3px solid #ddd;
+    padding: 1rem;
+    padding-left: 0px;
+    color: teal;
+
+}
+
+#about-me > .col-sm-12 {
+  padding-left: 0px;
+}
+
+#profile-picture {
+  margin: 1rem;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+
+/* Sticky Footer */
+* {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  #main-container {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: 5rem; 
+  }
+  #main-container:after {
+    content: "";
+    display: block;
+  }
+  .site-footer, #main-container:after {
+    height: 100px; 
+  }
+  .site-footer {
+    background: darkgrey;
+  }
+
+
+
+  footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #fff;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+}
+
+
